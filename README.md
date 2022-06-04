@@ -1,4 +1,4 @@
 # ToDo-App2
 
-değşiklik denemesi
-yeni değşiiklik daha
+
+###burda yapıtığınız değişiklikler github da ücretsiz kullanımda olmamız sebibyle merge işlemi ve pull request işlemi için kısıtlama bulunmamaktadır...❗❗❗ 
