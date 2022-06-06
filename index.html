@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ToDoApp</title>
-  </head>
-  <body>
-    <h1>ToDoApp</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="./img/todolist_planing.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>ToDoApp</title>
+</head>
+
+<body>
+  <div class="title">
+    <h1>To-Do List App</h1>
+    <img src="./img/todolist_planing.png" alt="">
+  </div>
+
+
+  <div class="container">
+    <div class="todo_area">
+      <input type="text" name="todo" id="todo_input" placeholder="Add Todo Items ...">
+      <button class="add_btn"><i class="fa-solid fa-plus"></i></button>
+    </div>
+    <section class="todo_fields">
+      <ul class="todo_items">
+
+      </ul>
+    </section>
+  </div>
+  <footer>
+    <p>Made wirh ❤️ by CodeMakers Team</p>
+    <p>Thanks To Our Team Members</p>
+  </footer>
+
+  <script src="./app/app.js"></script>
+</body>
+
 </html>
