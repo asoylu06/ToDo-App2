@@ -9,6 +9,8 @@
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="shortcut icon" href="./img/todolist_planing.ico" type="image/x-icon">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
   <title>ToDoApp</title>
 </head>
@@ -21,23 +23,32 @@
   </div>
 
   <div class="container">
+
     <div class="todo-area">
-      <input type="text" name="todo" id="todo_input" placeholder=" Add Todo Items ...">
+      <input type="text" name="todo" id="todo_input" placeholder="Add Todo Items ..." autofocus></input>
       <button class="add-btn"><i class="fa-solid fa-plus"></i></button>
     </div>
+
     <section class="todo-fields">
       <ul class="todo-items">
-          
+         
+
+
+
       </ul>
     </section>
+
   </div>
 
+  <h2 class="result">No tasks</h2>
 
   <footer>
     <p>Made with ❤️ by <span>CodeMakers Team</span></p>
     <p><span>Thanks</span> To Our Team Members</p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
   <script src="./app/app.js"></script>
 </body>
 
