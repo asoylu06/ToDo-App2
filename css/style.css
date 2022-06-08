@@ -5,12 +5,10 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
 }
-
 .todo-items {
   margin: 0;
   padding: 0;
 }
-
 body > *, .todo-fields {
   text-align: center !important;
 }
@@ -30,7 +28,6 @@ span {
   border: none;
   border-radius: 3px;
 }
-
 li input:checked  {
   background-color: black !important;
 }
@@ -76,7 +73,6 @@ footer {
 
 .drawn {
   text-decoration: line-through 3px black;
-
 }
 
 .result {
