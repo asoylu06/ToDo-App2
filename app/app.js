@@ -33,7 +33,7 @@ let list = document.querySelector('.todo-items');
 
 onclick = (e) => {
 
-    if (e.target.classList.contains('fa-plus')) {
+    if (e.target.classList.contains('add-btn') || e.target.classList.contains('fa-plus')) {
         if (input.value == '') {
             alert('Please enter a task');
         } else if (input.value.length > 30) {
@@ -79,6 +79,11 @@ onclick = (e) => {
     result();
 };
 
+onkeydown = (e) => {
+    if (e.key == 'Enter') {
+        document.querySelector('.fa-plus').click();
+    }
+}
 
 let result = function() {
 
