@@ -32,7 +32,6 @@ let list = document.querySelector('.todo-items');
 // }
 
 onclick = (e) => {
-
     if (e.target.classList.contains('add-btn') || e.target.classList.contains('fa-plus')) {
         if (input.value == '') {
             alert('Please enter a task');
@@ -75,13 +74,11 @@ onclick = (e) => {
     localStorage.setItem('local_tasks', list.innerHTML);
     result();
 };
-
 onkeydown = (e) => {
     if (e.key == 'Enter') {
         document.querySelector('.fa-plus').click();
     }
 }
-
 let result = function() {
 
     let task_num = Array.from(document.querySelectorAll('li')).length;
