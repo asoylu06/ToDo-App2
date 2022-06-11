@@ -52,7 +52,7 @@ onclick = (e) => {
             </li>`;
             
             list.innerHTML += item;
-            list.lastElementChild.querySelector('.task').innerHTML = input.value;
+            list.lastElementChild.querySelector('.task').textContent = input.value;
             tasks.push(input.value);
         }
         input.value = '';
